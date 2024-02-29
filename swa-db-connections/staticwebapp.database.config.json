@@ -96,7 +96,7 @@
 		"UserInfo": {
 			"source": {
 				"object": "dbo.user_info",
-				"type": "view"
+				"type": "table"
 			},
 			"graphql": {
 				"enabled": true,
