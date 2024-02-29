@@ -4,7 +4,7 @@
 		"database-type": "mssql",
 		"connection-string": "Server=tcp:infrastructure-insights.database.windows.net,1433;Initial Catalog=infra;Persist Security Info=False;User ID=infrastructure-insights;Password=infra@2024;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
 		"options": {
-			"set-session-context": true
+			"set-session-context": false
 		}
 	},
 	"runtime": {
