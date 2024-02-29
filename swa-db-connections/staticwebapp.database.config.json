@@ -92,6 +92,32 @@
 					]
 				}
 			]
+		},
+		"UserInfo": {
+			"source": {
+				"object": "dbo.user_info",
+				"type": "view"
+			},
+			"graphql": {
+				"enabled": true,
+				"type": {
+					"singular": "UserInfo",
+					"plural": "UsersInfo"
+				}
+			},
+			"rest": {
+				"enabled": true
+			},
+			"permissions": [
+				{
+					"role": "anonymous",
+					"actions": [
+						{
+							"action": "*"
+						}
+					]
+				}
+			]
 		}
 	}
 }
